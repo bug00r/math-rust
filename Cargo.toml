@@ -1,0 +1,12 @@
+[package]
+name = "math"
+version = "0.1.0"
+authors = ["Bug0r"]
+
+[dependencies]
+num-complex = "0.2"
+rand = "0.5.0"
+
+[lib]
+name = "math"
+crate-type = ["rlib"] # could be `staticlib` and 'dylib' or 'rlib' as well
